@@ -53,8 +53,6 @@ function preserveTypes(array) {
     }
 }
 
-const preserveFunc = preserveTypes([1, 'one', 2, 'two', 3, 'three']);
-console.log(preserveFunc('number')); // prints [1, 2, 3]
 
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
