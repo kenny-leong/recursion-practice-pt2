@@ -32,8 +32,7 @@ function dynamicSlice(start, end) {
     }
 }
 
-const slicer3 = dynamicSlice(-10, 2);
-console.log(slicer3([99, 40, 131, 8])); // prints [ 99, 40 ]
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {

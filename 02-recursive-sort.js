@@ -12,7 +12,7 @@
     console.log(sort([14, 5, 10, 6, 3, 4, 21, 16, 9])); // prints [ 3, 4, 5, 6, 9, 10, 14, 16, 21 ]
 */
 
-function sort(nums, sorted=[]) {
+function sort(nums, sorted = []) {
     if (nums.length === 0) {
         return sorted;
     } else {
@@ -30,9 +30,6 @@ function sort(nums, sorted=[]) {
     }
 
 }
-
-
-
 
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
